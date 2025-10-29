@@ -1,0 +1,47 @@
+.follow-container {
+    padding: 66px 24px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 8.5%;
+    max-width: 100%;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
+.img-follow {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+
+    h1 {
+        position: absolute;
+        top: 12%;
+        font-size: 3.5rem;
+        right: 13%;
+        color: black;
+    }
+
+    #qr-frame {
+        width: 1200px;
+    }
+
+    #qr {
+        position: absolute;
+        width: 300px;
+        bottom: 14%;
+        left: 35%
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
