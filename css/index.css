@@ -63,7 +63,7 @@ body, html{
     }
 
     .logo img{
-        width: 100px;
+        width: 75px;
     }
 
     .menu{
@@ -188,6 +188,16 @@ body, html{
 @media (max-width: 695px) {
     .header a {
         margin: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .header a{
+        font-size: 4vw; 
+    }
+
+    .header ul{
+        font-size: 4vw; 
     }
 }
 
