@@ -178,12 +178,18 @@ body, html{
     }
 }
 
-/* @media (max-width: 800px) {
-    .menu {
-        margin-left: 0px;
+@media (max-width: 795px) {
+    .header .menu {
+        padding-right: 0px;
     }
 
-} */
+}
+
+@media (max-width: 695px) {
+    .header a {
+        margin: 0;
+    }
+}
 
 @keyframes fadeIn {
     from {
