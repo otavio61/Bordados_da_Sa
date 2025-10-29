@@ -34,6 +34,24 @@
     }
 }
 
+@media (max-width: 650px) {
+    .img-follow {
+        h1 {
+
+            font-size: 3vw;
+            right: 20%;
+        }
+
+        #qr-frame {
+            width: 81vw;
+        }
+
+        #qr {
+            width: 21vw;
+        }
+    }
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

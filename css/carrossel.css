@@ -149,8 +149,19 @@
 }
 
 @media (max-width: 620px) {
-    .carousel::scroll-marker-group {
-        top: calc(anchor(bottom) - 38px);
+    .carousel-track h1 {
+        font-size: 3rem;
+    }
+
+
+}
+
+@media (max-width: 531px) {
+    .carousel-track h1 {
+        font-size: 2.5rem;
+    }
+        .carousel::scroll-marker-group {
+        /* top: calc(anchor(bottom) - 38px); */
         gap: 10px
     }
 }
