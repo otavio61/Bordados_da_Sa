@@ -9,7 +9,7 @@
 body {
     margin: 0;
     background-color: rgb(193 188 169);
-    display: grid;
+    /* display: grid; */
 }
 
 body, html{
@@ -173,7 +173,7 @@ body, html{
 }
 
 @media (max-width: 500px){
-    .container h1{
+    .text-desc h1{
         font-size: 2.5rem;
     }
 }
@@ -188,6 +188,16 @@ body, html{
 @media (max-width: 695px) {
     .header a {
         margin: 0;
+    }
+}
+
+@media (max-width: 405px){
+    .logo{
+        display: none;
+    }
+
+    .header nav{
+        padding: 1.5rem;
     }
 }
 

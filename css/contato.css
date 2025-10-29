@@ -17,18 +17,18 @@
     h1 {
         position: absolute;
         top: 12%;
-        font-size: 3.5rem;
+        font-size: 3vw;
         right: 13%;
         color: black;
     }
 
     #qr-frame {
-        width: 1200px;
+        width: 64vw;
     }
 
     #qr {
         position: absolute;
-        width: 300px;
+        width: 16vw;
         bottom: 14%;
         left: 35%
     }
