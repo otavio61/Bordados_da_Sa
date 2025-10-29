@@ -14,7 +14,7 @@ body {
 }
 
 body, html{
-   max-width: 100%;
+   width: 100%;
 }
 
 /**************Cabeçalho**************/
@@ -107,7 +107,7 @@ body, html{
         padding: 90px 24px 310px 24px;
         display: flex;
         margin: 0px 8.5%;
-        max-width: fit-content;
+        max-width: 100%;
         animation-name: fadeIn;
         animation-duration: 1.5s;
 
@@ -189,8 +189,8 @@ body, html{
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     body {
         width: 70% !important;
     }
-}
+} */
