@@ -21,7 +21,7 @@
         text-align: left;
     }
 
-    img{
+    img {
         width: 300px;
         border-radius: 15px;
     }
@@ -121,18 +121,37 @@
     margin-top: -100px;
 }
 
-.carousel-track{
+.carousel-track {
     max-width: 800px;
     height: 495px;
     border-radius: 25px;
     background-color: rgb(131, 135, 126);
 
-    h1{
+    h1 {
         font-family: "Special Elite", system-ui, sans-serif;
         color: rgb(73, 64, 64);
         text-align: center;
         margin-bottom: 10px;
         font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 410px) {
+    .carousel::scroll-button(left) {
+        right: calc(anchor(left) - 40px);
+        bottom: calc(anchor(top) - 175px);
+    }
+
+    .carousel::scroll-button(right) {
+        left: calc(anchor(right) - 40px);
+        bottom: calc(anchor(top) - 175px);
+    }
+}
+
+@media (max-width: 620px) {
+    .carousel::scroll-marker-group {
+        top: calc(anchor(bottom) - 38px);
+        gap: 10px
     }
 }
 
