@@ -106,8 +106,7 @@ body, html{
     .desc {
         padding: 90px 24px 310px 24px;
         display: flex;
-        /* width: 1500px; */
-        width: 100%;
+        margin: 0px 8.5%;
         margin: auto;
         max-width: fit-content;
         animation-name: fadeIn;
