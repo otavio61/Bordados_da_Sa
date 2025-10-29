@@ -107,7 +107,6 @@ body, html{
         padding: 90px 24px 310px 24px;
         display: flex;
         margin: 0px 8.5%;
-        margin: auto;
         max-width: fit-content;
         animation-name: fadeIn;
         animation-duration: 1.5s;
