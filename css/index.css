@@ -4,7 +4,7 @@
 @import url("https://fontlibrary.org//face/anka-coder");
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Special Elite", "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -52,7 +52,6 @@ body {
     }
 
     a:hover {
-        /* text-decoration-color: rgb(230, 194, 163, 1); */
         color: rgb(230, 194, 163);
     }
 
@@ -102,7 +101,6 @@ body {
     
     .desc {
         padding: 90px 24px 310px 24px;
-        /*10vh 1vw 25vh 1vh;*/
         display: flex;
         width: 1500px;
         margin: auto;
@@ -147,7 +145,7 @@ body {
 
     h1,
     p {
-        font-family: "Special Elite", system-ui, sans-serif;
+        font-family: "Special Elite", "Segoe UI", Arial, Helvetica, sans-serif;
     }
 }
 
