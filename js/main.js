@@ -1,4 +1,7 @@
 window.onload = () => {
-    console.log('Window size:\nWidth:' + window.innerWidth + '\nHeight: ' + window.innerHeight); 
+    console.log('----------| Window Properties ----------\n'); 
+    console.log(`Width: ${window.innerWidth}\n`);  
+    console.log(`Height: ${window.innerHeight}\n`);  
+    console.log('----------| Window Properties ----------'); 
 }
 
